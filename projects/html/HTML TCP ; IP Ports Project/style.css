@@ -1,0 +1,21 @@
+/* border/The Box */
+table, tr, th, td {
+   border: 1px solid black; 
+   border-collapse: collapse;
+   font-family: verdana;
+}
+
+
+
+/* text/In Box */
+th, td{
+text-align: left;
+vertical-align: top;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 3px;
+}
+
+td:nth-child(3), td:nth-child(4){
+   text-align: center;
+}
