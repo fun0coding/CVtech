@@ -9,6 +9,47 @@
       <title>~~~</title>
    </head>
    <body>
-      
+      <form action="submit.html" method="post">
+         <fieldset>
+            <legend>car</legend>
+               <label for="make">Make</label><br>
+               <select id="make" tabindex="1">
+                  <option>Ford</option>
+                  <option>Checy</option>
+                  <option>Pontiac</option>
+               </select>
+               <br><br>
+               
+               
+               <label for="model" >Model</label><br>
+               <input type="text" id="model" name="model" tabindex="2">
+               <br><br>
+               
+               
+               <label for="color" tabindex="3">Color</label><br>
+               
+               <input type="radio" id="red" name="colors" value="red">
+               <label for="red">Red</label>
+               
+               <input type="radio" id="blue" name="colors" value="blue">
+               <label for="blue">Blue</label>
+               
+               <input type="radio" id="black" name="colors" value="black">
+               <label for="black">Black</label>
+               <br><br>
+               
+               
+               <label for="mileage">Mileage</label><br>
+               <input type="number" id="mileage" name="mileage" min="0" max="999999"  tabindex="4">
+               <br><br>
+               
+               
+               <label for="email">Email<span style="color: red;">*</span></label><br>
+               <input type="email" id="email" name="email" required tabindex="5">
+               <br><br>
+         </fieldset>
+         <input type="submit" value="Submit">
+      </form>
+
    </body>
 </html>
