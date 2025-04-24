@@ -5,10 +5,37 @@
       <meta name="viewport" content="Width=device-width, initial-scale=1.0">
       <meta name="google" content="notranlate">
       <meta name="keywords" content="1,2,3">
-      <meta name="describe" content="ABC">
+      <meta name="describe" content="A video with a audio under it, both with subtitles/track">
       <title>~~~</title>
    </head>
    <body>
-      
+         
+        <!-- video -->
+        <video height="480" controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+                <!-- subtitle -->
+                <track src="" kind="subtitles" srclang="en" label="English">
+                <track src="" kind="subtitles" srclang="Fr" label="Frace">
+                
+            <!-- if video does not loud -->
+          <1h>Your browser does not support the video tag.</1h>
+        </video>
+        
+        <br><br>
+        
+        <!-- audio -->
+        <audio controls>
+            <source src="horse.mp4" type="audio/mp4">
+            <source src="horse.ogg" type="audio/ogg">
+                <!-- subtitle -->
+                <track src="" kind="subtitles" srclang="en" label="English">
+                <track src="" kind="subtitles" srclang="Fr" label="Frace">
+                
+            <!-- if audio does not loud -->
+          <1h>Your browser does not support the audio element.</1h>
+        </audio>
+
+        
    </body>
 </html>
